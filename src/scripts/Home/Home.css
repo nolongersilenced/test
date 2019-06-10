@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --dark-background: rgba(0, 0, 0, .75);
+    --main-title-color: white;
+    --trans-background: rgba(0, 0, 0, .6);
+}
+
+.appBody {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    padding: 6vh 1vw;
+    min-height: 78vh;
+    background-color: var(--trans-background);
+}
+
+.pageTitle {
+    padding-top: 10vh;
+    color: var(--main-title-color);
+    text-align: center;
+    font-size: 5vh;
+    font-weight: 500;
+}
+
+.photoDiv {
+    position: relative;
+    display: block;
+}
+
+.art {
+    width: calc(40% - 4px);
+    margin: 5%;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+}

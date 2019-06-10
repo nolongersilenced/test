@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --dark-background: rgba(0, 0, 0, .75);
+    --main-title-color: white;
+    --trans-background: rgba(0, 0, 0, .6);
+}
+
+.background-image {
+    position: fixed;
+    background: url('./images/background.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    z-index: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.Navbar {
+    position: fixed;
+    z-index: 10000;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    height: 10vh;
+    width: 100vw;
+    background-color: var(--dark-background);
+    text-align: center;
+}
+
+.siteTitle {
+    color: var(--main-title-color);
+    font-size: 5vh;
+    font-weight: 900;
+}
+
+.appBody {
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    padding: 6vh 1vw;
+    min-height: 78vh;
+    background-color: var(--trans-background);
+}
+
+.pageTitle {
+    color: var(--main-title-color);
+    text-align: center;
+    font-size: 5vh;
+    font-weight: 500;
+}
+
+#underconstruction {
+    display: flex;
+    height: 40vh;
+    margin: auto;
+    margin-top: 10vh;
+}
