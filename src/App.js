@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from './scripts/Navbar';
-import Home from './scripts/Home/Home';
+import Navbar from './Navbar/Navbar';
+import Home from './Home/Home';
 import './App.css';
 
 function App() {

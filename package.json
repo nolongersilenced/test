@@ -2,7 +2,7 @@
   "name": "nolongersilenced",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://nolongersilenced.github.io/newSite",
+  "homepage": "http://nolongersilenced.github.io/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",

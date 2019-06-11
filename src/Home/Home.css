@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --dark-background: rgba(0, 0, 0, .75);
+    --main-title-color: white;
+    --trans-background: rgba(0, 0, 0, .6);
+}
+
+.appBody {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    padding: 6vh 1vw;
+    min-height: 78vh;
+    background-color: var(--trans-background);
+}
+
+.photoDiv {
+    margin-top: 30px;
+    position: relative;
+    display: block;
+}
+
+.artist-div {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.artist-name {
+    font-size: 26px;
+    text-align: center;
+}
+
+.artist-pic {
+    width: 20px;
+    padding-right: 10px;
+}
+
+.art-name {
+    font-size: 20px;
+    text-align: center;
+}
+
+.big-picture {
+    max-width: 90%;
+    max-height: 50vh;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.small-photo-div {
+    width: 80%;
+    margin-left: 10%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.art {
+    height: 50px;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+}
