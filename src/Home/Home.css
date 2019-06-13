@@ -30,22 +30,26 @@
     width: 70%;
     margin: auto;
     padding: 10px;
+    padding-bottom: 30px;
     border-radius: 10px;
     margin-bottom: 30px;
 }
 
 .artist-name {
-    font-size: 26px;
-    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .artist-pic {
-    width: 20px;
+    width: 40px;
     padding-right: 10px;
 }
 
 .art-name {
-    font-size: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -71,4 +75,11 @@
     height: 50px;
     border: 2px solid darkgray;
     border-radius: 10px;
+}
+
+#ReactGridGallery {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
 }
